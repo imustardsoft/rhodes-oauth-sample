@@ -1,0 +1,30 @@
+--- 
+name: twitter-test
+extensions: 
+- json
+- hmac
+- digest
+- digest-sha1
+
+bbver: 4.6
+wp: 
+  productid: 28efe650-39a9-012f-3e5b-000c2901f7da
+android: 
+  version: 2.3.1
+  emulator: test
+sdk: /usr/local/lib/ruby/gems/1.8/gems/rhodes-3.3.2
+build: debug
+applog: rholog.txt
+version: 1.0
+symbian: 
+  uid: "0xe36499de"
+sdkversion: 3.3.2
+vendor: rhomobile
+iphone: 
+  provisionprofile: 
+  BundleURLScheme: twitter-test
+  BundleIdentifier: com.rhomobile.twitter-test
+  sdk: iphonesimulator5.0
+  codesignidentity: 
+  entitlements: 
+  configuration: Release
