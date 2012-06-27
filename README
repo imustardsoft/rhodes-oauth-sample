@@ -15,3 +15,8 @@ in rhodes(3.3.3).
 Note:
 Facebook App's Mobile Web URL  should be set to : "http://redirectme.to"
 FourSquare App's Callback url should be set to :  "http://redirectme.to"
+
+Facebook access token will expire date is 2 months.
+So before access token expire please request user relogin 
+the facebook in your mobile app and then can get a new long-lived(2 months)
+access token.
