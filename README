@@ -1,25 +1,26 @@
 This Sample have bellow function.
 
 1. Have implemented authentication
-   .twitter oauth 1.0 
-   .facebook oauth 2.0
-   .foursquare oauth 2.0
-in rhodes(3.3.3).
+     .twitter oauth 1.0 
+     .facebook oauth 2.0
+     .foursquare oauth 2.0
+   in rhodes(3.3.3).
    
-2. after sign in save the access token in local mobile phone database.
+2. after sign in by facebook,twitter,foursquare.The code will 
+   save the access token in local mobile phone database.
 
 3. post status by access token which store in database.
 
 4. it test successful in android 2.3.4
 
 Note:
-.Facebook App's Mobile Web URL should be set to : "http://redirectme.to"
+ .Facebook App's Mobile Web URL should be set to : "http://redirectme.to"
 
-.FourSquare App's Callback url should be set to :  "http://redirectme.to"
+ .FourSquare App's Callback url should be set to :  "http://redirectme.to"
 
-.Facebook access token's expire date is 2 months.
- So before access token expire please request user relogin 
- the facebook in your mobile app and then can get a new long-lived(2 months)
- access token.
+ .Facebook access token's expire date is 2 months.
+  So before access token expire please request user relogin 
+  the facebook in your mobile app and then can get a new long-lived(2 months)
+  access token.
 
-.Twitter and foursquare access token don't expire.
+ .Twitter and foursquare access token don't expire.
