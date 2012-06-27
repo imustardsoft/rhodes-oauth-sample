@@ -1,0 +1,9 @@
+<div data-role="page">
+  <% if $facebook_access_token %>
+  Facebook AccessToken: <%= $facebook_access_token %>
+  <% else %>
+<div class="left facebook_btn">
+  <a href="/app/Facebook/login"><img src="/public/images/facebook.png" border="0" /></a>
+</div>
+  <% end %>
+</div>

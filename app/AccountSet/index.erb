@@ -1,0 +1,25 @@
+<div data-role="page">
+<br/><br/><br/>
+<% if @account_set.fb_access_token %>
+  Facebook AccessToken: <%= @account_set.fb_access_token %>
+  <% else %>
+<div>
+  <a href="/app/Facebook/login">FaceBook Login</a>
+</div>
+  <% end %>
+<br/><br/><br/>
+  <% if @account_set.tt_oauth_token %>
+  Twitter Oauth Token: <%= @account_set.tt_oauth_token %>
+  <% else %>
+<div>
+  <a href="/app/Twitter/login">Twitter Login</a>
+</div>
+  <% end %>
+  
+<br/><br/><br/>
+<% if @account_set.fs_access_token %>
+ Foursquare Access token: <%= @account_set.fs_access_token %>
+<% else %>
+<a href="/app/Foursquare/login">Foursquare Login</a>
+<% end %>
+</div>

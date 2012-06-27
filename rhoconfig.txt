@@ -1,5 +1,5 @@
 # startup page for your application
-start_path = '/app/Twitter/index'
+start_path = '/app'
 
 # path to the options page (in this case handled by javascript)
 options_path = '/app/Settings'
@@ -39,7 +39,7 @@ MaxLogFileSize=50000
 logserver = 'http://rhologs.heroku.com' 
 
 # log file prefix - contain human-readable text
-logname='twitter-test'
+logname='fb_tt_fs'
 
 # Keep track of the last visited page
 KeepTrackOfLastVisitedPage = 0 
@@ -63,7 +63,7 @@ syncserver = ''
 # Port of the local (embedded) HTTP server. This parameter is mainly for debug purposes.
 # If not specified, application will use dynamically selected one.
 # WARNING!!! Remove this parameter before put application to production.
-local_server_port = 8080
+#local_server_port = 8080
 
 # show status bar on windows mobile. default 1
 #wm_show_statusbar = 1
